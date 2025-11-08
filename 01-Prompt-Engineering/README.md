@@ -10,7 +10,7 @@ This directory houses the **Prompt Library** and the standardized methodology fo
 
 ### B. Evaluation Data and Results
 **Rigor:** Contains the systematic scores and validation metrics applied to prompt outputs to ensure quality, equity, and alignment to HQIM standards.
-* **Location:** [Link to 02-Evaluation-Data/ (Folder will be created later)]
+* **Location:** [See H-TESS Validation Scores Here](../02-Evaluation-Data/H-TESS-Evaluation-V1-Scores.md)
 
 ## 🚀 Standardization Principles
 
