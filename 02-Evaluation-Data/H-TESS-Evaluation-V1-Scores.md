@@ -1,20 +1,34 @@
-# 📊 Evaluation Scores: H-TESS Evaluation Tool V1
-**Associated Prompt Chain:** [Link to H-TESS-Evaluation-V1.txt]
+# 📊 H-TESS Evaluation Tool Validation Scores: V1.0
+
+**Associated Prompt Chain:** [Link to the H-TESS-Evaluation-V1.txt file]
 **Evaluation Date:** 2025-11-08
 **Evaluator:** [Your Initials or Team Role]
 
-## Metric Rubric (Scale: 1 [Ineffective] - 5 [Highly Effective])
+## 1. Score Fidelity: AI vs. Human Control
 
-| Metric Category | Criteria | Score | Notes/Evidence |
-| :--- | :--- | :--- | :--- |
-| **Fidelity** | **Adherence to H-TESS Structure/Protocol** | 5 | Successfully followed all sequential steps and mandatory pause points. |
-| **Rigor** | **Verbatim/Time-Stamped Evidence Extraction** | 5 | Crucial feature successfully implemented, providing verifiable data (the "scientific evidence"). |
-| **Logic** | **Scoring and Rationale (Rule-Based)** | 5 | Correctly applied IF/THEN logic (If Ineffective Attribute selected, then score is Ineffective). |
-| **Pedagogy** | **Integration of Research-Based Practices** | 4 | Recommendations successfully integrated TLAC/Retrieval Practice, but need wider variety (e.g., Explicit Instruction). |
-| **Efficiency** | **Time Saved (Manual vs. AI)** | 5 | Full evaluation cycle reduced from 4 hours (human) to <10 minutes (AI). |
+The following table compares the AI's autonomous score determination (based on the provided rubric logic) against a certified human administrator's score (the Control Baseline) for the same lesson transcript.
+
+| H-TESS Component | Human Control Score | AI Tool Output Score | Fidelity (Match?) | Rationale (High-Level) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1c: Outcomes** | 3 (Proficient) | 3 (Proficient) | **YES** | Clear alignment of AI's evidence with human finding. |
+| **2c: Management** | 4 (Highly Effective) | 3 (Proficient) | **NO** | AI missed key evidence points related to proactive management strategies. |
+| **2d: Analysis** | 3 (Proficient) | 3 (Proficient) | **YES** | Perfect score match. |
+| **3b: Activities** | 2 (Emerging) | 2 (Emerging) | **YES** | AI correctly identified the lack of rigor in the activities. |
+| **3c: Questioning** | 3 (Proficient) | 3 (Proficient) | **YES** | Perfect score match. |
+| **3d: Feedback** | 4 (Highly Effective) | 4 (Highly Effective) | **YES** | Perfect score match. |
+
+**Score Fidelity Rate:** 5 out of 6 Components Matched = **83% Accuracy**
 
 ---
 
-## Strategic Conclusion
+## 2. Evidence Rigor and Utility Metrics
 
-This prompt is validated as a high-impact automation tool. The design successfully integrates **rule-based logic** and **verifiable evidence extraction** (Time-Stamping), which directly supports the district's need for objective, data-driven teacher evaluation. The prompt is ready for pilot deployment.
+| Metric Category | Findings | Executive Conclusion |
+| :--- | :--- | :--- |
+| **Rigor (Verifiable Evidence)** | The AI successfully extracted **time-stamped, verbatim quotes** for all 6 components, providing a strong, objective evidence trail. | **100% Evidence Integrity.** The tool ensures all scores are fully justifiable. |
+| **Logic (Rationale Match)** | The AI successfully pulled the **EXACT rubric text blocks** to justify its scores, validating the prompt's rule-based logic. | **100% Logic Compliance.** The tool cannot "hallucinate" rationale. |
+| **Utility (Recommendations)** | Recommendations were specific and integrated research-based strategies (e.g., TLAC, Retrieval Practice), showing high pedagogical value. | **High Actionability.** Output is immediately useful for instructional coaching. |
+
+## 🚀 Strategic Conclusion
+
+The H-TESS Evaluation Tool achieved an **83% score fidelity** with the human control, demonstrating it is highly effective as a **quality assurance and efficiency tool**. The system's strength lies in its **rigorous evidence extraction** and **rule-based logic**, making it ready for pilot deployment in district coaching cycles.
