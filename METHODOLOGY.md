@@ -1,7 +1,7 @@
 # 🔬 Detailed Methodology: Applying Scientific Rigor to LLM Evaluation
 
 ## 1. Experimental Design Transfer
-The evaluation framework is derived from principles used in structural biology and computational chemistry research (e.g., using **CCP4/PHENIX** for validation or **Igor Pro** for data analysis).
+The evaluation framework is derived from principles used in structural biology and computational chemistry research (e.g., using **CCP4** for validation or **Igor Pro** for data analysis).
 
 * **Controls:** Each prompt scenario includes a defined 'Control Prompt' (generic, low-context) against an 'Experimental Prompt' (high-context, pedagogically anchored).
 * **Blinded Evaluation:** Outputs are stripped of metadata and evaluated by a diverse panel of teachers using a **blinded, rubric-based approach** to minimize evaluator bias.
